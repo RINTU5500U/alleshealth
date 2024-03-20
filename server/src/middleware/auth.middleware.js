@@ -15,7 +15,7 @@ async function auth(req, res,next) {
         if (!data) {
             throw new Error("Invalid token");
         }
-        req.user = data;
+        req.decodedToken = data;
         next();
         
     } catch (error) {

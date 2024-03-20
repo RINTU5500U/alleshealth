@@ -14,8 +14,6 @@ dist
 dist-ssr
 *.local
 
-
-
 client/package-lock.json
 server/package-lock.json
 
